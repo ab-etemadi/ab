@@ -1,0 +1,190 @@
+
+.container{
+    margin-top: 11% ;
+}
+.info{
+    margin-top: 20px;
+    color: #fff;
+}
+.info h1{
+    font-size: 60px;   
+    margin-bottom: -15px;
+    font-weight: 500;           
+}
+.info small{
+    letter-spacing: 3px;
+    opacity: 0.6;     
+}
+.info a{
+    letter-spacing: 5px;
+    color: #08fdd8;
+    border: 1px solid #08fdd8;
+    padding: 10px 15px;
+    font-size: 13px;   
+}
+.info a:hover{
+    color: #000;
+    background-color: #08fdd8;
+    text-decoration: none;
+}
+.h1-tags,.small-tags, .button-tags{
+    margin-top: -15px;
+    margin-left: -85px;
+    opacity: 0.1;
+}
+.botton-small-tags{
+    margin-top: 20px;
+}
+.button-tags{
+    margin-top: 40px;
+}
+.ablogo{
+    width: 400px;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.img-tags{
+    position: absolute;
+    left: 20px;
+}
+.top-img-tags{
+    top: 20px;
+}
+.botton-img-tags{
+    bottom: 0;
+}
+
+@media only screen and (device-width: 1024px) {
+    .info{
+        position: relative;
+        left: 100px;
+        top: 150px;
+    }
+    .ab-logo{
+        position: relative;
+        top: 600px;
+        right: 360px;
+    }
+}
+@media (max-width: 991px){
+    .img-tags{
+        position: relative;    
+    }
+    .bottom-tags{
+        position: relative;
+    }  
+    .top-img-tags{    
+        margin-right: 20px;
+    }
+    .ab-logo{
+        text-align: center;
+        margin-bottom: -50px;
+    }
+    .ab-logo img{
+        margin: 80px auto;
+    }
+}
+@media (max-width: 768px){
+    .navigation{
+        width: 100%;
+        height: 60px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.199);
+        display: flex;
+        margin-bottom: 100px;       
+    }
+    .logo{
+        display: none;
+    }
+    .container{
+        margin: 0 50px;
+    }            
+    .top-tags{
+        top: 70px;
+        left: 10px;
+    }
+    .bottom-tags{
+        left: 10px;
+    }
+    body{
+        margin-top: 140px;
+    }
+    .nav-list{
+        margin-top: 15px;
+    }
+    .nav-list .nav-item{
+        margin: 0px 5%;
+        display: inline;
+    }
+    .social_media{
+        display: none;    
+    }
+    .info h1{
+        font-size: 48px;
+    }
+    .top-img-tags{
+        margin: 0;
+    }
+}
+@media (max-width: 615px){
+    .ab-logo{
+        margin-left:-50px;
+    }
+    .ab-logo img{
+        width: 70%;
+    }
+}
+
+@media (max-width: 600px){
+    .container{
+        margin: 0 auto;
+    }
+    .h1-tags,.small-tags, .button-tags{
+        margin-left: -70px;
+    }
+}
+@media (max-width: 575px){
+    .ab-logo{
+        margin-left:-70px;
+    }
+    .ab-logo img{
+        width: 65%;
+    }
+    .info h1{
+        font-size: 45px;
+    }
+}
+@media (max-width: 540px){
+    .img-tags{
+        display: block;
+        text-align: left;
+        position: absolute;
+        top: 70px;
+        left: 110px;
+    }
+    .info small{
+        letter-spacing: 0;            
+    }
+    .botton-img-tags{
+        margin-top: 50%;
+    }
+    .ab-logo{
+        margin-left:-7%;
+    }
+ }
+@media (max-width: 530px){
+    .mob-inv-txt{
+        display: none;
+    }
+    .web-developer{
+        letter-spacing: 4px;;
+    }
+}
+@media (max-width: 361px){
+    .nav-list .nav-item{
+        margin: 0px 3%;
+        display: inline;
+    }
+}
+        

@@ -1,0 +1,139 @@
+#forkongithub{
+    width: 400px; right:  -40px;
+}
+.social_media a{
+        text-decoration: none;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+.header{
+    position: fixed;
+    top:50%;
+    color: white;
+    left: 51.5%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    font-family: 'Monument';
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    z-index: 2;
+}
+.container{
+    position: absolute;
+    width: 200%;
+    height: 200vh;
+    margin-left:20px;
+    
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0;
+}
+.block{
+    width: 300px;
+    height: 400px;
+    background-color: gray;
+    margin: 1em;
+    filter: grayscale(1);
+    opacity: 0.4;
+    transition: 1s;
+}
+.block:hover{
+    filter: grayscale(0);
+    opacity: 1;
+}
+.block-1{
+    background: url('../img/works-img/work_1.png') no-repeat 50% 50%;
+    background-size: cover;
+}
+.block-2{
+    background: url('../img/works-img/work_2.png') no-repeat 50% 50%;
+    background-size: cover;
+}
+.block-3{
+    background: url('../img/works-img/work_3.png') no-repeat 50% 50%;
+    background-size: cover;
+}
+.block-4{
+    background: url('../img/works-img/work_4.png') no-repeat 50% 50%;
+    background-size: cover;
+}
+.block-5{
+    background: url('../img/works-img/work_5.png') no-repeat 50% 50%;
+    background-size: cover;
+}
+.block-6{
+    background: url('../img/works-img/work_6.png') no-repeat 50% 50%;
+    background-size: cover;
+}
+.block-7{
+    background: url('../img/works-img/work_7.png') no-repeat 50% 50%;
+    background-size: cover;
+}
+.block-8{
+    background: url('../img/works-img/work_8.png') no-repeat 50% 50%;
+    background-size: cover;
+}
+@media (max-width: 768px){
+    .container{
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    .header{
+        width: 100%;
+        font-size: 22px;
+        text-align: center;
+    }
+    #forkongithub{
+        display: none;
+    }
+
+}
+@media (max-width: 700px){
+    .container{
+        width: 300%;
+    }    
+}
+@media (max-width: 630px){
+    .container{
+        width: 350%;
+    }    
+}
+@media (max-width: 540px){
+    .container{
+        width: 380%;
+    }    
+}
+@media (max-width: 500px){
+    .container{
+        width: 400%;
+    }    
+}
+@media (max-width: 470px){
+    .container{
+        width: 420%;
+    }    
+}
+@media (max-width: 450px){
+    .header{
+        font-size: 18px;
+    }
+    .container{
+        width: 450%;
+    }    
+}
+@media (max-width: 420px){
+    .container{
+        width: 540%;
+    }    
+}
+@media only screen and (device-width: 768px) {
+    .container{ width: 260%;
+    }
+}
+

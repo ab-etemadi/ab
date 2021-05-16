@@ -1,0 +1,149 @@
+
+.container{
+    margin-top: 9%;
+    margin-left: 120PX;
+}
+.about-section{
+    color: #fff;
+}
+.about-section h1{
+    font-size: 60px;
+}
+.h1-tags,.p-tags , .br-tags{
+    margin-top: -15px;
+    margin-left: -80px;
+    opacity: 0.2;
+}
+.br-tags{
+    margin-left: -68px;
+}
+.my-img{
+    text-align: center;    
+}
+.img-tags{
+    display: none;
+    position: relative;
+    margin-left: -450px;
+}
+.my-img1{
+    height: 100%;
+    position: fixed; 
+    border-radius: 0; 
+    top: 0; 
+    opacity: 1; 
+    right: 0;
+}
+.tanbali a{
+    display: inline-block;
+    opacity: 0.8;
+    font-size: 15px;
+}
+.tanbali a:hover{
+    opacity: 1;
+    text-decoration: none;
+}
+.mob-my-img{
+    display: none;
+}
+.my-img{            
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+
+@media only screen and (device-width: 1024px) {
+    .about-section{
+        width: 700px;
+        margin: 100px 80px;
+    }
+    .about-section h1{
+        font-size: 100px;
+    }
+    .about-section P{
+        font-size: 25px;
+    }
+    .my-img1{
+        display: none;
+    }
+    .mob-my-img{
+        width: 100%;
+        position: relative;
+        display: block;
+        top: 740px;
+        width: 700px;
+        right: 400px;
+    }
+    .h1-tags,.p-tags , .br-tags{
+        margin: -18px 0px;
+        
+    }
+    .bottom-tags{
+        position: absolute;
+        bottom: 0;
+
+    }
+}
+
+
+@media only screen and (device-width: 768px) {
+    .about-section{
+        width: 670px;
+        margin-left: 30px;
+    }
+    .container{
+        margin-left: 0;
+    }
+    .h1-tags,.p-tags , .br-tags{
+    margin-left: -40px;
+    }
+    .my-img1{
+        display: none;
+    }
+    .mob-my-img{
+        width: 90%;
+        margin: 20px auto;
+        margin-left: 40px;
+        display: block;
+    }
+    .bottom-tags{
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+
+@media (max-width: 767px){
+    .my-img{
+        margin: 60px auto; 
+    }
+    .my-img .my-img1{
+        display: none;
+    }
+    .mob-my-img{
+        display: block;
+        border-radius: 10px;
+    }
+    .my-img img{
+        width: 100%;
+        opacity: 0.8;
+    }
+    .img-tags{
+        display: block;
+        margin-top: -30px;
+        position: absolute;
+        margin-left: -80px;
+    }
+    .bottom-img-tags{
+        margin-top: 5px;
+    }
+}
+@media (max-width: 600px){
+    .container{
+        margin: 0 auto;
+    }
+}
+
+     

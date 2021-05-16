@@ -1,0 +1,321 @@
+
+.container-fluid{
+    margin-right: 0px;
+}
+.contact-form{
+    width: 480px;
+    margin: 13% auto 0;
+    padding-left:50px ;
+    color: white;
+}    
+.contact-form h1{
+    font-size: 55px; 
+    font-family:'Coolvetica-Regular'; 
+    color: #08fdd8;
+}
+.h1-tags,.p-tags , .br-tags , .form-tags{
+    margin-top: -15px;
+    margin-left: 55px;
+    opacity: 0.1;
+}
+.bottom-form-tags{
+    bottom:  0px;
+}
+ul.social-media{
+    margin-top: -20px;
+    margin-left: -40px;
+}
+ul.social-media li{
+    display: inline-block;
+    margin: 0 10%;           
+}
+ul.social-media li a{
+    font-size: 18px;
+    color: rgb(141, 141, 141);
+}
+ul.social-media li a i:hover{
+    color: #fff;
+}
+.myEmail{
+    color: #54f0d8; 
+    margin-left: 15px;
+}
+.input::placeholder,
+.sent-btn, 
+.afgh{
+-webkit-user-select: none;
+-moz-user-select: -moz-none;
+-ms-user-select: none;
+    user-select: none;
+}
+form{
+    padding: 0 12px;
+}
+form input,
+form textarea {
+    border: none;
+    margin: 4px 0;
+    padding: 10px;
+    background-color: #2b2b2b;
+    color: white;
+}
+.active-border{
+    border-bottom: 3px solid #08fdd8;
+}
+.sent-btn{
+    display: block;
+    width: 120px;
+    background: none;
+    border: none;
+    color: #08fdd8;
+    border: 1px solid #08fdd8;
+    border-radius: 3px;
+    padding: 8px 20px;
+    position: relative;
+    top: 10px;
+    left: 314px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.sent-btn:hover{
+    background-color: #08fdd8;
+    color: #000;
+}
+.contact-map img{
+    width: 100vh;
+    height: 100vh;            
+    position: absolute;
+    right: 0;
+}
+.name{
+    margin-left: -14px;
+    width: 213px;
+}
+.email{
+    margin-left: -10px; width: 213px;
+}
+@media (max-width: 767px) {
+    .contact-map img{
+        display: none;
+}
+}
+@media (max-width: 575px) {  
+    .afgh{
+        display: none;
+    }
+    .name{
+        width: 106%;
+        margin-left: -15px;
+    }
+    .email{
+        width: 106%;
+        margin-left: -15px;
+    }
+    .contact-form{
+        width: auto;
+        padding: 0;
+        margin-top: 0;
+    }
+    .sent-btn{
+        width: 100%;
+        left: 0;
+        margin-bottom: 40px;
+        padding: 13px 0;
+    }
+    .h1-tags,.p-tags , .br-tags , .form-tags{
+        margin-left: -70px;
+    }      
+    .bottom-form-tags{
+        bottom:  00px;
+    }
+    .myEmail{
+        margin-left: 0;
+    }
+
+}
+@media (max-width: 515px) {
+    .name,
+    .email{
+        width: 107%;
+    }
+}     
+@media (max-width: 460px) {
+    .name ,
+    .email{
+        width: 107.5%;
+    }
+        
+}
+
+@media (max-width: 420px) {
+    .name ,.email{
+        width: 108%;   
+    }   
+}
+
+@media (max-width: 400px) {
+    .name ,.email{
+        width: 109%;   
+    }  
+}
+@media (max-width: 388px) {
+    ul.social-media li{
+        margin: 5px 9%;
+    }
+}
+@media (max-width: 370px) {
+    .name ,.email{
+        width: 109.5%;   
+    }
+}
+@media (max-width: 353px) {
+    .name ,.email{
+        width: 110%;   
+    }   
+}
+        
+@media (max-width: 330px) {
+    .name ,.email{
+        width: 110.8%;   
+    }   
+}  
+@media (max-width: 310px) {
+    .name ,.email{
+        width: 111.8%;   
+    }  
+}
+        
+@media only screen and (device-width: 768px) {
+    .contact-form{
+        position: relative;
+        left: 100px;
+    }
+    .contact-form h1{
+        font-size: 90px;
+    }
+    .contact-form p{
+        font-size: 17px;
+    }
+    .contact-form .social-media a {
+        font-size: 30px;
+    }
+    .contact-form .social-media li {
+        margin: 0 9%;
+    }
+    .bottom-tags{
+        position: absolute;
+        bottom: 30px;
+    }     
+    .h1-tags,.p-tags , .br-tags , .form-tags{
+        margin-left: -50px;
+    }
+    .bottom-form-tags{
+        top:730px;
+    }
+    .sent-btn{
+        width: 485px;
+        position: absolute;
+        left: 43px;
+        top: 650px;
+        padding: 15px 0;
+    }    
+    .input{
+        position: absolute;
+    }
+    .name{
+        height: 55px;
+        width: 230px;
+    }
+    .email{
+        height: 55px;
+        width: 230px;
+        margin-left: 15px;
+    }
+    textarea{
+        top: 435px;
+        height: 180px;
+    }
+    .subject{
+        height: 55px;
+        top: 365px;    
+        width: 900px;
+    }
+    .afgh{
+        display: none;
+        }
+}    
+@media only screen and (device-width: 1024px) { 
+    .contact-map {
+        display: none;
+    }
+    .contact-form{
+        
+        position: absolute;
+        top: 130px;
+        left: 25%;
+        width: 700px;
+        
+       
+    }       
+    .contact-form h1{
+        font-size: 140px;
+    }
+    .contact-form p{
+        font-size: 20px;
+    }
+    .contact-form .social-media{
+        width: 700px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .contact-form .social-media a {
+        font-size: 40px;
+    }
+    .contact-form .social-media li {
+        margin: 0 8%;
+    }
+    .bottom-tags{
+        position: absolute;
+        bottom: 30px;
+    }
+    .h1-tags,.p-tags , .br-tags , .form-tags{
+        margin-left: -50px;
+    }
+    .bottom-form-tags{
+        top:900px;
+    }
+    .sent-btn{
+        width: 700px;
+        position: absolute;
+        left: 48px;
+        font-size: 25px;
+        top: 815px;
+        padding: 15px 0;
+    }
+    .input{
+        font-size: 30px;
+        padding: 30px;
+        position: absolute;
+    }
+    .name{
+        margin-top: 35px;
+        height: 55px;
+        width: 335px;
+    }
+    .email{
+        margin-top: 35px;
+
+        height: 55px;
+        width: 335px;
+        margin-left: 20px;
+    }
+    textarea{
+        top: 570px;
+        height: 220px;
+    }
+    .subject{
+        height: 55px;
+        top: 493px;    
+        width: 900px;
+    }
+}
