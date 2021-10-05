@@ -59,6 +59,12 @@ form textarea {
     background-color: #2b2b2b;
     color: white;
 }
+form input:focus,
+form textarea:focus {
+    outline: none;
+}
+
+
 .active-border{
     border-bottom: 3px solid #08fdd8;
 }
